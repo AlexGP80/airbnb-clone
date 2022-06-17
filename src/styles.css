@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    min-width: 550px;
+}
+
+nav {
+    height: 70px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 3px 7.5px rgba(0,0,0,0.1);
+}
+
+nav > img {
+    margin: 0 0 0 30px;
+    width: 82px;
+}
