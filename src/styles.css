@@ -21,3 +21,30 @@ nav > img {
     margin: 0 0 0 30px;
     width: 82px;
 }
+
+main {
+    font-family: 'Poppins', sans-serif;
+}
+
+main > h1 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 110%;
+    padding-left: 36px;
+    margin: 32px 0 0 0;
+}
+
+main > p {
+    width: 320px;
+    padding-left: 36px;
+    margin: 16px 0 0 0;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 110%;
+}
+
+main > img {
+    width: 400px;
+    display: block;
+    margin: 26px auto 0 auto;
+}
