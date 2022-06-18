@@ -24,7 +24,7 @@ Notes:
 export default function Card() {
     return (
         <section className="card--container">
-            <img src={cardImage} alt="Card Image" className="card--image"/>
+            <img src={cardImage} alt="Card" className="card--image"/>
             <div className="card--image-legend">
                 <img src={star} alt="Rating:" className="card--star" />
                 <span className="card--rating">5.0</span>
