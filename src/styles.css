@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 .container {
@@ -13,20 +14,24 @@ body {
 nav {
     height: 70px;
     display: flex;
-    align-items: center;
+    padding: 20px 36px;
     box-shadow: 0px 3px 7.5px rgba(0,0,0,0.1);
 }
 
-nav > img {
-    margin: 0 0 0 30px;
-    width: 82px;
+.nav--logo {
+    max-width: 100px;
 }
 
-main {
-    font-family: 'Poppins', sans-serif;
+section {
+    padding: 20px;
 }
 
-main > h1 {
+.hero {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero--header {
     font-weight: 600;
     font-size: 36px;
     line-height: 110%;
@@ -34,7 +39,7 @@ main > h1 {
     margin: 32px 0 0 0;
 }
 
-main > p {
+.hero--text {
     width: 320px;
     padding-left: 36px;
     margin: 16px 0 0 0;
@@ -43,8 +48,7 @@ main > p {
     line-height: 110%;
 }
 
-main > img {
-    width: 400px;
-    display: block;
-    margin: 26px auto 0 auto;
+.hero--photo {
+    max-width: 400px;
+    align-self: center;
 }
