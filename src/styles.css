@@ -52,3 +52,37 @@ section {
     max-width: 400px;
     align-self: center;
 }
+
+.card--image {
+    width: 175px;
+    border-radius: 9px;
+    margin-bottom: 8px;
+}
+
+.card--container {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 110%;
+    color: #222;
+}
+
+.card--container > p {
+    margin: 8px 0;
+}
+
+.card--rating {
+    margin: 2px;
+}
+
+.card--review-count {
+    color: #918E9B;
+}
+
+.card--star {
+    width: 14px;
+    margin-right: 2px;
+}
+
+.card--price > strong {
+    font-weight: 600;
+}
