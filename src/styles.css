@@ -76,6 +76,11 @@ section {
     margin: 8px 0;
 }
 
+.card--image-legend {
+    display: flex;
+    align-items: center;
+}
+
 .card--rating {
     margin: 2px;
 }

@@ -19,6 +19,7 @@ still be block elements, stacked vertically. We'll add styling later.
 export default function App() {
     const cardComponents = data.map(card => 
         <Card
+            key={card.id}
             img={`../images/${card.coverImg}`}
             title={card.title}
             rating={card.stats.rating}
