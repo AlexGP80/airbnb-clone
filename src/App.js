@@ -17,15 +17,10 @@ still be block elements, stacked vertically. We'll add styling later.
 */
 
 export default function App() {
-    const cardComponents = data.map(card => 
+    const cardComponents = data.map(item => 
         <Card
-            key={card.id}
-            img={`../images/${card.coverImg}`}
-            title={card.title}
-            rating={card.stats.rating}
-            reviewCount={card.stats.reviewCount}
-            location={card.location}
-            price={card.price}
+            key={item.id}
+            item={item}
         />);
 
     return (

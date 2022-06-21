@@ -54,22 +54,26 @@ section {
 }
 
 .cards-list {
+    margin: 10px 30px;
     display: flex;
     align-items: center;
 }
 
 .card--image {
-    width: 100%;
+    width: 175px;
     border-radius: 9px;
     margin-bottom: 8px;
 }
 
 .card--container {
-    width: 175px;
+    width: 185px;
     font-weight: 300;
     font-size: 12px;
     line-height: 110%;
     color: #222;
+    position: relative;
+    padding: 0px;
+    margin: 0 10px;
 }
 
 .card--container > p {
@@ -96,4 +100,15 @@ section {
 
 .card--price > strong {
     font-weight: 600;
+}
+
+.card--badge {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    font-weight: bold;
+
 }
