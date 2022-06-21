@@ -20,7 +20,7 @@ export default function App() {
     const cardComponents = data.map(item => 
         <Card
             key={item.id}
-            item={item}
+            {...item}
         />);
 
     return (
